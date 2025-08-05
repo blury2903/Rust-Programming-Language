@@ -1,13 +1,15 @@
-# Rust build artifacts
-*/target/
-*/debug/
+# Ignore all target and debug folders in any sub-project
+**/target/
+**/debug/
 
-# Backup and temp files
+# Backup files by rustfmt
 **/*.rs.bk
+
+# Windows/MSVC debug files
 *.pdb
 
-# Editor-specific
+# VSCode config
 .vscode/
 
-# Mutation testing output
+# Optional: mutation testing output
 **/mutants.out*/
