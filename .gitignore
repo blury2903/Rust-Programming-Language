@@ -1,6 +1,6 @@
 # Rust build artifacts
-/target/
-/debug/
+*/target/
+*/debug/
 
 # Backup and temp files
 **/*.rs.bk
